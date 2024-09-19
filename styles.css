@@ -1,7 +1,7 @@
 /* 
     This is a CSS comment. Please add your name to this file below:
     
-    NAME: 
+    NAME: Ashley Shanks
 */
 /* -------------------------------------------------- */
 /* 
@@ -322,19 +322,14 @@ footer{
 /* Practicing the box model & seeing it in action */
 /* content, padding, borders, margin, dev tools, inline, & block elements */
 
-/* For both links in the section */
-/* 
-    TO DO: add styles to both links in this section that will:
-        - make these links display as block-level elements
-        - remove the underline
-        - align the text to the center
-        - make the font display at 1.1rem
-        - make the text bold
-        - tell these to be 50% wide in the container
-        - add the large box shadow
-*/
-/* ADD SELECTOR AND STYLES HERE */
-
+#section2 a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: var(--box-shadow-lg);
+}
 /* For the first link in this section: */
 #section2 a:first-of-type{
     background-color: var(--lt-blue);
@@ -343,6 +338,8 @@ footer{
     border: 4px solid var(--dk-blue);
     margin: 1rem auto;
     border-radius: 0 24px 24px 0;
+    width: 50%;
+
 }
 
 /* For the paragraph with placeholder text */
@@ -377,7 +374,10 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
-    
+    background-color:var(--teal-rgba);
+    border: 4px dashed var(--dk-gray);
+    margin: 16px 60px 32px 8x;
+    padding: 32px 8px 16px 60px;
 }
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */
